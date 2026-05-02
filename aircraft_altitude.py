@@ -1,6 +1,6 @@
-from aircraft import Aircraf
+from aircraft import Aircraft
 modelo = input("Enter aircraft model:\n")
-plane = Aircraf(modelo)
+plane = Aircraft(modelo)
 while True:
     comando = input("Enter command (A for ascent, D for descent, X to exit):\n")
     if comando == 'X':
