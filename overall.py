@@ -19,6 +19,7 @@ def main():
           the car, add it to the dictionary, and print the car."""
           car = create_car_from_input()
           cars[car.car_id] = car
+          print(car)
           print("Car added.")
 
 

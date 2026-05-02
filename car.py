@@ -1,6 +1,6 @@
 # Write your class definition here!
 class Car:
-    def __init__(self, car_id, brand, year, color, mileage ):
+    def __init__(self, car_id, brand, year, color, mileage =0.0 ):
         self.car_id = car_id
         self.brand = brand
         self.year = year
