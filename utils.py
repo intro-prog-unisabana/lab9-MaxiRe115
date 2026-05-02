@@ -5,11 +5,11 @@ def person_data():
     name = input("Enter the person's name:\n")
     person = Person(name)
     while True:
-        cuenta = int(input("Enter a 4-digit account number: "))
-        balance = float(input("Enter the initial balance: "))
+        cuenta = int(input("Enter a 4-digit account number:\n"))
+        balance = float(input("Enter the initial balance:\n"))
         my_cuenta = BankAccount(cuenta, balance)
         person.add_account(my_cuenta)
-        ya = input("Are you done adding accounts? (yes/no): ").lower()
+        ya = input("Are you done adding accounts? (yes/no):\n").lower()
         if ya == 'yes':
             break
     return person
