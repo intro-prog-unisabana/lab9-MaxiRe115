@@ -12,4 +12,4 @@ while True:
         plane.climb(pies)
     elif accion == 'D':
         plane.descend(pies)
-print(plane.altitude)
+print(f"Final altitude: {plane.altitude} feet")
