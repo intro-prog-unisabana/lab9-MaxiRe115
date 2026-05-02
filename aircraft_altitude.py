@@ -8,8 +8,8 @@ while True:
     partes= comando.split()
     accion = partes[0]
     pies = int(partes[1])
-    if comando == 'A':
+    if accion == 'A':
         plane.climb(pies)
-    elif comando == 'D':
+    elif accion == 'D':
         plane.descend(pies)
 print(plane.altitude)
