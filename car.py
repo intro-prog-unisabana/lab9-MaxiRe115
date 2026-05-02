@@ -1,6 +1,6 @@
 # Write your class definition here!
 class Car:
-    def __init__(self, car_id, brand, year, color, mileage):
+    def __init__(self, car_id, brand, year, color, mileage ):
         self.car_id = car_id
         self.brand = brand
         self.year = year
@@ -11,5 +11,5 @@ class Car:
     def drive(self, miles):
         self.mileage = self.mileage + miles  
     def __str__(self):
-        return f"{self.car_id} - {self.brand} {self.color} {self.brand} with {self.mileage} miles"
+        return f"{self.car_id} - {self.year} {self.color} {self.brand} with {self.mileage} miles"
 
